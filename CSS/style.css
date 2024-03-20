@@ -1,0 +1,14 @@
+h1 {
+    font-family: "Nabla", system-ui;
+    color: #ff6228;
+}
+
+h3 {
+    font-family: "Sedgwick Ave", cursive;
+    color: orange;
+    background-color: hsl(60, 100%, 89%);
+}
+
+.Passioni {
+    background-color: hsl(60, 100%, 89%);
+}
