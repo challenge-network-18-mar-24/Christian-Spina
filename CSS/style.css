@@ -1,12 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     font-family: "Nabla", system-ui;
     color: #ff6228;
 }
 
+/*
 h3 {
     font-family: "Sedgwick Ave", cursive;
     color: orange;
     background-color: hsl(60, 100%, 89%);
+}
+
+.float-left{
+    float: left;
+}
+.custom_button {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+}
+*/
+
+.debug {
+    background-color: darkorange;
+    border: 5px solid red;
+}
+
+.bg_dark {
+    background-color: rgb(14, 14, 14);
+}
+
+.text_center {
+    text-align: center;
+}
+
+.logo {
+    width: 80px;
+    /*width: 10%;*/
+    border-radius: 100px;
+    border: solid white;
+}
+
+.distantial_div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.p_10 {
+    padding: 10px;
+}
+
+.p_20 {
+    padding: 20px;
+}
+
+.p_50 {
+    padding: 50px;
+}
+
+.m_20 {
+    margin: 20px 0px;
+}
+
+.text_white {
+    color: white;
+}
+
+.title_important {
+    font-family: "Russo One", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.text_roboto {
+    font-family: "roboto";
+    /*font-size: ;*/
+
 }
 
 .Passioni {
