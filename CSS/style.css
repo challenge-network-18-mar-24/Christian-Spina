@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-h1 {
+#title_header {
     font-family: "Nabla", system-ui;
     color: #ff6228;
 }
@@ -91,4 +91,23 @@ h3 {
 
 .Passioni {
     background-color: hsl(60, 100%, 89%);
+}
+
+.text_footer {
+    font-family: "roboto";
+    color: white;
+}
+
+.logo_footer {
+    width: 30px;
+    border-radius: 100px;
+    border: solid white;
+}
+
+#div_footer {
+    padding-top: 50px;
+}
+
+.footer_p {
+    padding-bottom: 10px;
 }
