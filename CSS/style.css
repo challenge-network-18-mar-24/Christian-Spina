@@ -4,59 +4,16 @@
     padding: 0;
 }
 
-#title_header {
-    font-family: "Nabla", system-ui;
-    color: #ff6228;
+/* ------------------- WIDTH & HEIGHT ------------------- */
+.w_200px {
+    width: 200px;
 }
 
-/*
-h3 {
-    font-family: "Sedgwick Ave", cursive;
-    color: orange;
-    background-color: hsl(60, 100%, 89%);
+.w_50x100 {
+    width: 50%;
 }
 
-.float-left{
-    float: left;
-}
-.custom_button {
-    background-color: #ffffff;
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 30px;
-}
-*/
-
-.debug {
-    background-color: darkorange;
-    border: 5px solid red;
-}
-
-.bg_dark {
-    background-color: rgb(14, 14, 14);
-}
-
-.text_center {
-    text-align: center;
-}
-
-.logo {
-    width: 80px;
-    /*width: 10%;*/
-    border-radius: 100px;
-    border: solid white;
-}
-
-.distantial_div {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-}
-
+/* ------------- MARGIN & PADDING --------------------*/
 .p_10 {
     padding: 10px;
 }
@@ -69,34 +26,59 @@ h3 {
     padding: 50px;
 }
 
+.p_70 {
+    padding: 70px;
+}
+
+.p_100 {
+    padding: 100px;
+}
+
 .m_20 {
     margin: 20px 0px;
 }
 
-.text_white {
-    color: white;
+.m_auto {
+    margin: auto;
 }
 
-.title_important {
-    font-family: "Russo One", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
+/* ------------ BACKGROUND COLORS ----------------*/
+
+.bg_white {
+    background-color: white;
 }
 
-.text_roboto {
-    font-family: "roboto";
-    /*font-size: ;*/
-
+.bg_light_grey {
+    background-color: rgb(246, 246, 246);
 }
+
+.bg_dark {
+    background-color: rgb(14, 14, 14);
+}
+
+.text_center {
+    text-align: center;
+}
+
+.logo {
+    width: 80px;
+    /*10%;*/
+    border-radius: 100px;
+    border: solid white;
+}
+
+.distantial_div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
 
 .Passioni {
     background-color: hsl(60, 100%, 89%);
 }
 
-.text_footer {
-    font-family: "roboto";
-    color: white;
-}
+
 
 .logo_footer {
     width: 30px;
@@ -110,4 +92,94 @@ h3 {
 
 .footer_p {
     padding-bottom: 10px;
+}
+
+/* ------------ TEXT FONTs ----------------*/
+.text_roboto {
+    font-family: "roboto";
+    /*font-size: ;*/
+}
+
+/* ------------- TEXT COLORS --------------------*/
+.text_white {
+    color: white;
+}
+
+.text_dark {
+    color: #000000;
+}
+
+/*--------- TEXT ALIGNMENTS ----------------------- */
+
+.title_important {
+    font-family: "Russo One", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.text_footer {
+    font-family: "roboto";
+    color: white;
+}
+
+.text_footer {
+    font-family: "roboto";
+    color: white;
+}
+
+/*
+.title_secondary {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+*/
+
+/* ------- BUTTONS CUSTOM -------- */
+.custom_button {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+/* --------------- UTILITY FLEX --------------------- */
+
+.flex {
+    display: flex;
+}
+
+.flex_reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* ------------------- UTILITY PERSONALI -----------------------
+
+.debug {
+    background-color: darkorange;
+    border: 5px solid red;
+}
+
+h3 {
+    font-family: "Sedgwick Ave", cursive;
+    color: orange;
+    background-color: hsl(60, 100%, 89%);
+}
+
+.float-left{
+    float: left;
+}
+
+*/
+
+/* ------------------  ID ---------------------------------- */
+
+#title_header {
+    font-family: "Nabla", system-ui;
+    color: #ff6228;
 }
