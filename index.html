@@ -39,25 +39,59 @@
 </head>
 
 <body>
-
     <header>
-        <div class="flex distantial_div p_20 align_items_center gap_20 bg_dark text_center text_roboto">
-
-            <img src="./img/CS_Logo_1.png" alt="CS Logo" class="logo">
-            <!-- menu -->
-            <div>
-                <nav class="flex align_items_center gap_20 text_white">
-                    <p>Home</p>
-                    <p>CV</p>
-                    <p>About Me</p>
-                </nav>
+        <!--  NAVBAR MENU -->
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body text_roboto" data-bs-theme="dark">
+            <div class=" container-fluid">
+                <!-- LOGO E NOME -->
+                <a class="navbar-brand text_white" href="#">
+                    <img src="./img/cs_Logo_1.png" alt="CS Logo" class="logo d-inline-block align-text-top">
+                    Christian Spina
+                </a>
+                <!-- LOGO MOD RESPONSIVE -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- LINK MENU -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">About Me</a>
+                        <a class="nav-link" href="#">CV</a>
+                        <nav class="navbar bg-body-tertiary">
+                            <form class="container-fluid justify-content-start">
+                                <button class="btn btn-sm btn-outline-secondary" type="button">Contattami</button>
+                            </form>
+                        </nav>
+                    </div>
+                </div>
             </div>
-
-            <!-- button-->
-            <button class="custom_button">contattami</button>
-
-        </div>
+        </nav>
     </header>
+
+
+    <!-- vecchio Header
+          <header>       
+            <div class="flex distantial_div p_20 align_items_center gap_20 bg_dark text_center text_roboto">
+
+                <img src="./img/CS_Logo_1.png" alt="CS Logo" class="logo">
+
+                <div>
+                    <nav class="flex align_items_center gap_20 text_white">
+                      <p>Home</p>
+                       <p>CV</p>
+                       <p>About Me</p>
+                    </nav> 
+                </div>
+
+                ------ button ----------
+                <button class="custom_button">contattami</button>
+
+            </div>
+          </header>
+    -->
 
     <main>
         <!-- Titolo -->
