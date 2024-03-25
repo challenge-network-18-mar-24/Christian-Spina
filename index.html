@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS -->
-    <link rel="stylesheet" href="./CSS/style.css">
+
     <!-- Fonts -->
     <!-- sedgwick-ave -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,104 +25,157 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/style.css">
 
     <title>My Page</title>
 </head>
 
 <body>
-    <!--Header_box-->
-    <div class="bg_dark text_center distantial_div">
 
-        <img src="./img/CS_Logo_1.png" alt="CS Logo" class="logo">
+    <header>
+        <div class="flex distantial_div p_20 align_items_center gap_20 bg_dark text_center text_roboto">
 
-        <div>
-            <!-- Titolo -->
-            <h1 id="title_header">Christian Spina</h1>
+            <img src="./img/CS_Logo_1.png" alt="CS Logo" class="logo">
+            <!-- menu -->
+            <div>
+                <nav class="flex align_items_center gap_20 text_white">
+                    <p>Home</p>
+                    <p>CV</p>
+                    <p>About Me</p>
+                </nav>
+            </div>
+
+            <!-- button-->
+            <button class="custom_button">contattami</button>
+
+        </div>
+    </header>
+
+    <main>
+        <!-- Titolo -->
+        <h1 id="title_header">Christian Spina</h1>
+        <div class="text_center distantial_div text_roboto">
+
+
+            <!-- Paragrafo -->
+            <p>
+                <i>Ciao a tutti!</i>
+                <br> è un piacere avervi qui, io sono Christian
+                <br> ho 28 anni, mi sono diplomato in un Istituto Tecnico in Geometra e successivamente laureato in
+                Informatica
+                <br> attualmente sto cercando di apprendere tutto ciò che riguarda lo sviluppo e il design web, ho avuto
+                modo
+                di provare lo sviluppo di un sito tramite CMS utilizzando Wordpress.
+                <br>Sogno di lavorare in ambito frontend, ux/ui design e successivamente punterò a diventare full stack
+                developer.
+            </p>
         </div>
 
-    </div>
-
-    <div class="text_center distantial_div text_roboto">
-        <!-- Paragrafo -->
-        <p>
-            <i>Ciao a tutti!</i>
-            <br> è un piacere avervi qui, io sono Christian
-            <br> ho 28 anni, mi sono diplomato in un Istituto Tecnico in Geometra e successivamente laureato in
-            Informatica
-            <br> attualmente sto cercando di apprendere tutto ciò che riguarda lo sviluppo e il design web, ho avuto
-            modo
-            di provare lo sviluppo di un sito tramite CMS utilizzando Wordpress.
-            <br>Sogno di lavorare in ambito frontend, ux/ui design e successivamente punterò a diventare full stack
-            developer.
-        </p>
-    </div>
-
-    <div class="passioni title_important text_center distantial_div">
-        <h2>Interessi e Passioni</h2>
-    </div>
-
-    <ol>
-        <li>ciao</li>
-        <li>prova</li>
-    </ol>
-
-
-    <!-- Lista -->
-    <ol class="Passioni distantial_div text_roboto">
-        <li>Fotografia</li>
-        <li>Color grading e Editing (foto e video)</li>
-        <li>Crescita Personale</li>
-        <li>Notion</li>
-        <li>Trekking o anche semplici camminate in natura alla scoperta di bei paesaggi</li>
-        <li>videogame e giochi da tavolo con gli amici</li>
-        <li>Disegnare</li>
-    </ol>
-
-
-    <!-- Sezione Creatività -->
-    <div class="Passioni distantial_div text_center text_roboto">
-        <div>
-            <h3>Creatività</h3>
+        <div class="bg_yellow title_important text_center distantial_div">
+            <h2>Interessi e Passioni</h2>
         </div>
-        <p>Fotografia</p>
-        <p>Color grading e Editing (foto e video)</p>
-        <p>Disegnare</p>
 
-    </div>
-
-    <!-- Sezione Logica -->
-
-    <div class="distantial_div text_roboto text_center">
-        <h3>Logico</h3>
-        <p>Notion</p>
-        <p>Proprammazione (o almeno ci si prova haha, compresi quelli che sto imparando e che so gia)</g>
-        <ul>
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-            <li>java</li>
-            <li>sql</li>
-            <li>php</li>
-        </ul>
-
-    </div>
-
-    <div class="Passioni distantial_div text_roboto text_center">
-        <h3>Tempo libero</h3>
-        <p>Crescita Personale</p>
-        <p>Sport</p>
-        <p>Escursioni</p>
-        <p>Natura</p>
-        <p>videogame e giochi da tavolo con gli amici</p>
-    </div>
+        <ol>
+            <li>ciao</li>
+            <li>prova</li>
+        </ol>
 
 
-    <div class="distantial_div text_center text_roboto" <p>il 18 Marzo ho iniziato un corso per imparare a
-        programmare per il web</p>
-    </div>
+        <!-- Lista -->
+        <ol class="bg_yellow distantial_div text_roboto">
+            <li>Fotografia</li>
+            <li>Color grading e Editing (foto e video)</li>
+            <li>Crescita Personale</li>
+            <li>Notion</li>
+            <li>Trekking o anche semplici camminate in natura alla scoperta di bei paesaggi</li>
+            <li>videogame e giochi da tavolo con gli amici</li>
+            <li>Disegnare</li>
+        </ol>
+
+
+        <!-- Sezione Creatività -->
+        <div class="bg_yellow distantial_div text_center text_roboto">
+            <div>
+                <h3>Creatività</h3>
+            </div>
+            <p>Fotografia</p>
+            <p>Color grading e Editing (foto e video)</p>
+            <p>Disegnare</p>
+
+        </div>
+
+        <!-- Sezione Logica -->
+
+        <div class="distantial_div text_roboto text_center">
+            <h3>Logico</h3>
+            <p>Notion</p>
+            <p>Proprammazione (o almeno ci si prova haha, compresi quelli che sto imparando e che so gia)</g>
+            <ul>
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+                <li>java</li>
+                <li>sql</li>
+                <li>php</li>
+            </ul>
+
+        </div>
+
+        <div class="Passioni distantial_div text_roboto text_center">
+            <h3>Tempo libero</h3>
+            <p>Crescita Personale</p>
+            <p>Sport</p>
+            <p>Escursioni</p>
+            <p>Natura</p>
+            <p>videogame e giochi da tavolo con gli amici</p>
+        </div>
+
+
+        <div class="distantial_div text_center text_roboto">
+
+        </div>
+        <p>il 18 Marzo ho iniziato un corso per imparare a
+            programmare per il web</p>
+        </div>
+
+        <!-- sezione CV -->
+        <div class="gap_20">
+            <!-- bg_img -->
+            <img src="./img/sfondo_cv.jpg" alt="bg_img" class="bg_img">
+
+
+            <dif class="flex align_items_center p_20 position_absolute text_roboto">
+                <!-- CV Black-->
+                <div class="bg_dark text_white">
+                    <div>
+                        <img src="./img/Foto_Profilo_Tonda.png" alt="img_profilo" class="img_profilo m_20">
+                        <h4><u>Abilità e Competenze</u></h4>
+                        <h4><u>Software</u></h4>
+                        <h4><u>Lingue</u></h4>
+                        <h4><u>contatti</u></h4>
+                    </div>
+
+                    <!-- CV white -->
+                    <div class="bg_white">
+                        <div>
+                            <h3>Spina Christian</h3>
+                        </div>
+                    </div>
+            </dif>
+        </div>
+
+    </main>
 
     <!-- footer_box -->
-    <div id="div_footer" class="bg_dark text_center text_footer distantial_div text_roboto">
+    <footer id="div_footer" class="bg_dark text_center text_footer distantial_div text_roboto">
 
         <div class="p_20 title_important">
             <h2>footer di prova</h2>
@@ -146,14 +198,7 @@
             <img src="./img/CS_Logo_1.png" alt="CS Logo_footer" class="logo_footer">
         </div>
 
-    </div>
-    <!-- CV -->
-<div>
-    <div>
-        <p>stacco</p>
-    </div>
-</div>
-
+    </footer>
 </body>
 
 </html>
