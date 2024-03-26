@@ -216,3 +216,8 @@ h3 {
 .p_top_50 {
     padding-top: 50px;
 }
+
+.text_light_gray {
+    color: lightslategray;
+
+}
