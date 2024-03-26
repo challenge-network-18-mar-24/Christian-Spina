@@ -41,7 +41,8 @@
 <body>
     <header>
         <!--  NAVBAR MENU -->
-        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body text_roboto" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body fixed-top text_roboto"
+            data-bs-theme="dark">
             <div class=" container-fluid">
                 <!-- LOGO E NOME -->
                 <a class="navbar-brand text_white" href="#">
@@ -55,6 +56,52 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- LINK MENU -->
+                <div class="collapse navbar-collapse align_items_center" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="custom_button btn btn-outline-success" type="button">Contattami</button>
+                    </form>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- vecchio Header
+          <header>       
+    NAVBAR MENU
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body fixed-top text_roboto" data-bs-theme="dark">
+            <div class=" container-fluid">
+
+    LOGO E NOME 
+            <a class="navbar-brand text_white" href="#">
+                <img src="./img/cs_Logo_1.png" alt="CS Logo" class="logo d-inline-block align-text-top">
+                Christian Spina
+            </a>
+
+    LOGO MOD RESPONSIVE
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>    
+            
+    LINK MENU 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -67,38 +114,28 @@
                             </form>
                         </nav>
                     </div>
-                </div>
+                </div> 
             </div>
-        </nav>
-    </header>
-
-
-    <!-- vecchio Header
-          <header>       
-            <div class="flex distantial_div p_20 align_items_center gap_20 bg_dark text_center text_roboto">
-
-                <img src="./img/CS_Logo_1.png" alt="CS Logo" class="logo">
-
-                <div>
-                    <nav class="flex align_items_center gap_20 text_white">
-                      <p>Home</p>
-                       <p>CV</p>
-                       <p>About Me</p>
-                    </nav> 
-                </div>
-
-                ------ button ----------
-                <button class="custom_button">contattami</button>
-
-            </div>
+        </nav>          
           </header>
     -->
+    <!-- 
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+-->
 
     <main>
-
-        <!-- Titolo 
-    <h1 id="title_header">Christian Spina</h1>
--->
 
         <div class="text_center distantial_div text_roboto">
             <!-- Paragrafo -->
@@ -114,6 +151,7 @@
                 developer.
             </p>
         </div>
+
 
         <div class="bg_yellow title_important text_center distantial_div">
             <h2>Interessi e Passioni</h2>
@@ -182,14 +220,14 @@
             programmare per il web</p>
         </div>
 
-        <!-- sezione CV -->
+        <!-- sezione CV 
         <div class="gap_20">
-            <!-- bg_img -->
+bg_img 
             <img src="./img/sfondo_cv.jpg" alt="bg_img" class="bg_img">
 
 
             <dif class="flex align_items_center p_20 position_absolute text_roboto">
-                <!-- CV Black-->
+CV Black
                 <div class="bg_dark text_white">
                     <div>
                         <img src="./img/Foto_Profilo_Tonda.png" alt="img_profilo" class="img_profilo m_20">
@@ -199,7 +237,7 @@
                         <h4><u>contatti</u></h4>
                     </div>
 
-                    <!-- CV white -->
+  CV white 
                     <div class="bg_white">
                         <div>
                             <h3>Spina Christian</h3>
@@ -207,12 +245,12 @@
                     </div>
             </dif>
         </div>
-
+    -->
 
     </main>
 
 
-    <!-- 'placeholder / segnaposto cv' -->
+    <!-- 'placeholder / segnaposto cv'
     <div class="card">
         <img src="..." class="card-img-top" alt="...">
 
@@ -224,7 +262,134 @@
         </div>
     </div>
 
+-->
+    <div class="dropdown bottom-0 end-0 mb-3 me-3 bd-mode-toggle text_roboto">
+        <div class="container marketing">
 
+
+
+            <!-- PRIMO MODULO testo sx e foto dx -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">Creatività <span class="text-body-secondary"> Il lato
+                        </span></h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, sit. Natus quaerat
+                        itaque veritatis facilis quod? Labore adipisci eum iste, tempora dolorum eaque, ratione, rerum
+                        totam culpa illum recusandae officiis.</p>
+                </div>
+                <div class="col-md-5">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+
+                        <img src="./img/sfondo_cv.jpg" alt="bg_img" class="bg_img">
+
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+                            fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+                    </svg>
+                </div>
+            </div>
+            <!-- aggiungere card per creatività -->
+
+            <!-- SECONDO MODULO testo sx e foto dx -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span
+                            class="text-body-secondary">See for yourself.</span></h2>
+                    <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of
+                        how
+                        this layout would work with some actual real-world content in place.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+                            fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- 3 colonne con immagini circolari per programmi -->
+            <div class="row p_top_50">
+                <div class="col-lg-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                    </svg>
+                    <h2 class="fw-normal">Heading</h2>
+                    <p>Some representative placeholder content for the three columns of text below the carousel. This is
+                        the
+                        first column.</p>
+                    <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                    </svg>
+                    <h2 class="fw-normal">Heading</h2>
+                    <p>Another exciting bit of representative placeholder content. This time, we've moved on to the
+                        second
+                        column.</p>
+                    <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                    </svg>
+                    <h2 class="fw-normal">Heading</h2>
+                    <p>And lastly this, the third column of representative placeholder content.</p>
+                    <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+            <!-- QUARTO MODULO -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span
+                            class="text-body-secondary">Checkmate.</span></h2>
+                    <p class="lead">And yes, this is the last block of representative placeholder content. Again, not
+                        really
+                        intended to be actually read, simply here to give you a better view of what this would look like
+                        with some actual content. Your content.</p>
+                </div>
+                <div class="col-md-5">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+                            fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+                    </svg>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+
+        </div>
+    </div>
 
 
 

@@ -212,3 +212,7 @@ h3 {
     font-family: "Nabla", system-ui;
     color: #ff6228;
 }
+
+.p_top_50 {
+    padding-top: 50px;
+}
