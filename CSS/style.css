@@ -111,6 +111,13 @@
     /*font-size: ;*/
 }
 
+/*
+.text_raleway {
+    font-family: 
+    font-weight:"700";
+}
+*/
+
 /* ------------- TEXT COLORS --------------------*/
 .text_white {
     color: white;
@@ -227,7 +234,23 @@ h3 {
 
 }
 
+
 /*
 .bg-light-gradient-top {
     color: ;
 } */
+
+.img_back {
+    /*background-color: blanchedalmond;
+     background-image: url("/img/sfondo_cv.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    z-index: -1;
+    
+}
+
+.grid_sistem {
+    display: grid;
+    place-items: center;
+}
