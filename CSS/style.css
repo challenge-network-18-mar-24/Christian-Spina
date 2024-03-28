@@ -240,8 +240,9 @@ h3 {
     color: ;
 } */
 
-.img_back {
-    background-image: url('/img/sfondo_cv.jpg');
+#img_back {
+    background-image: url("../img/sfondo_cv.jpg");
+    border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -258,4 +259,13 @@ h3 {
 
 #myCarousel {
     width: 70%;
+}
+
+.m_cv {
+    margin-bottom: -200px;
+}
+
+.cv_conteiner {
+    padding-bottom: 300px;
+    background-color: beige;
 }
