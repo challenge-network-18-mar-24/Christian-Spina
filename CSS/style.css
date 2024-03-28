@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 /* ------------------- WIDTH & HEIGHT ------------------- */
 .w_200px {
     width: 200px;
@@ -235,10 +236,11 @@ h3 {
 }
 
 
-/*
+
 .bg-light-gradient-top {
-    color: ;
-} */
+    position: relative;
+    background: linear-gradient(180deg, hsl(270, 74%, 93%), hwb(0 100% 0% / 0));
+}
 
 #img_back {
     background-image: url("../img/sfondo_cv.jpg");
@@ -268,4 +270,40 @@ h3 {
 .cv_conteiner {
     padding-bottom: 300px;
     background-color: beige;
+}
+
+.bg-gradient {
+    position: relative;
+    background: linear-gradient(90deg, #f0027f, #75489f);
+}
+
+.carosello {
+    width: 500px;
+    height: 500px;
+}
+
+/*--------- Form ----------------------------*/
+input,
+textarea {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}
+
+label {
+    line-height: 1.9rem;
+
+}
+
+input[type="submit"] {
+    transform: translate(2.2%);
+    padding: 3px;
+    margin-top: 0.6rem;
+    font-family: roboto;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+fieldset {
+    padding: 20px 40px;
 }
