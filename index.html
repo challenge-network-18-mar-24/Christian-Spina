@@ -74,6 +74,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#Portfolio">Portfolio</a>
                         </li>
+                        <!-- Sezione Contatti da sviluppare
+                            <li class="nav-item">
+                            <a class="nav-link" href="#Contatti">Contatti</a>
+                        </li>
+                    -->
                     </ul>
 
                     <!-- PROVA SOCIAL -->
@@ -148,8 +153,50 @@
                             <h1 class="text-white display-4 fw-bold">Web Designer e Frontend dev
                             </h1>
 
-                            <!-- button Contattami -->
-                            <button class="custom_button btn btn-outline-success" type="button">Contattami</button>
+                            <!-- button Contattami -------------------------- Trigger/Open The Modal --------   -->
+                            <button id="myBtn" class="btn btn-outline-success" type="button">Contattami</button>
+
+
+                            <!-- modale -->
+                            <div id="myModal" class="modal">
+                                <!-- Modal content -->
+                                <div>
+                                    <!-- FORM FIGO  -->
+                                    <div class="form-container modal-content">
+                                        <form class="form">
+                                            <div>
+                                                <span class="close">&times;</span>
+                                                <!--
+                                                <legend class="form-group btn_form_modale text-center">Contattami
+                                                </legend> -->
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="name">Nome</label>
+                                                <input type="nome" id="nome" name="nome" placeholder="Il tuo nome"
+                                                    required="">
+                                            </div>
+
+
+                                            <div class="form-group">
+                                                <label for="email">La tua Email</label>
+                                                <input type="text" id="email" name="email"
+                                                    placeholder="Scrivi la tua email" required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="textarea">Come posso esserti d'aiuto</label>
+                                                <textarea name="textarea" id="textarea" rows="10" cols="50"
+                                                    placeholder="Scrivi il tuo messaggio"
+                                                    required="">          </textarea>
+                                            </div>
+                                            <button class="btn btn_form_modale" type="submit">Invia</button>
+                                            <!-- class="form-submit-btn" -->
+                                        </form>
+                                    </div>
+
+                                </div>
+
+                            </div>
 
                         </div>
                     </div>
@@ -453,6 +500,15 @@
                         </div>
                     </div>
 
+                    <!-- WORDPRESS -->
+                    <div class="col-md-2 col-3">
+                        <div class="p-xl-5 p-lg-3 mb-3 mb-lg-0">
+                            <!-- logo add -->
+                            <img src="./img/wordpress-48.png" class="imgtooltip img-fluid">
+                        </div>
+                    </div>
+
+
                     <!-- vorrei imparare php -->
                     <!-- php -->
                     <div class="col-md-2 col-3">
@@ -487,7 +543,7 @@
                         </div>
                     </div>
 
-                    <!-- uml 
+                    <!-- uml ------------------------------
                 <div class="col-md-2 col-3">
                     <div class="p-xl-5 p-lg-3 mb-3 mb-lg-0">
                     --------------------logo uml ------------------
@@ -513,13 +569,14 @@
                     </div>
 
 
-                    <!-- add -->
+                    <!-- add ----------------------------------------------------------------
                     <div class="col-md-2 col-3">
                         <div class="p-xl-5 p-lg-3 mb-3 mb-lg-0">
-                            <!-- logo add -->
+                            <!-- logo add --------------------------------------------
                             <img src="./img/add-24.png" class="imgtooltip img-fluid">
                         </div>
                     </div>
+                -->
 
                     <!-- lightroom img ------------------------------
                     <div class="col-md-2 col-3">
@@ -578,7 +635,8 @@
                     class="d-flex justify-content-center bd-placeholder-img-lg featurette-image img-fluid mx-auto p_top_50 cv_conteiner">
 
                     <div class="m_cv card align-items-center grid_sistem" style="width: 18rem;">
-                        <img src="./img/Christian Spina _ CV_2 (1).png" class="card-img-top mb-n5" alt="CV">
+                        <!-- IMMAGINE DEL CV DI PROVA -->
+                        <img src="./img/Free-CV-template-prova.jpg" class="card-img-top mb-n5" alt="CV">
                     </div>
 
                 </div>
@@ -789,6 +847,8 @@
                     </div>
                 </div>
             </div>
+
+
         </div>
     </footer>
 
@@ -819,7 +879,61 @@
     </div>
 
 
+    <!-- FORM FIGO  -->
+    <div class="form-container">
+        <form class="form">
+            <!--
+            <legend class="form-group">Contattami</legend> -->
+
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="nome" id="nome" name="nome" placeholder="Il tuo nome" required="">
+            </div>
+
+
+            <div class="form-group">
+                <label for="email">La tua Email</label>
+                <input type="text" id="email" name="email" placeholder="Scrivi la tua email" required="">
+            </div>
+            <div class="form-group">
+                <label for="textarea">Come posso esserti d'aiuto</label>
+                <textarea name="textarea" id="textarea" rows="10" cols="50" placeholder="Scrivi il tuo messaggio"
+                    required="">          </textarea>
+            </div>
+            <button class="form-submit-btn" type="submit">Invia</button>
+        </form>
+    </div>
+
+
 </body>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
 
 </html>
 
